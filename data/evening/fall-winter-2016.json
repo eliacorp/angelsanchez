@@ -1,0 +1,106 @@
+{
+  "collection":"evening",
+  "season":"fall-winter-2016",
+  "cover":"images/evening/fall-16/fw16-cover.jpg",
+  "videoHandle":"",
+  "videoId": "",
+  "mobilevideoHandle":"",
+  "mobileVideoId": "",
+  "images": [
+    {"src":"images/evening/fall-16/large/LOOK-8.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-8.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-2.jpg",
+      "large":"images/evening/fall-16/extra-large/LOOK-2.jpg",
+      "class": "ghost-left-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-3.jpg",
+      "large":"images/evening/fall-16/extra-large/LOOK-3.jpg",
+      "class": "ghost-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-4.jpg",
+      "large":"images/evening/fall-16/extra-large/LOOK-4.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-5.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-5.jpg"},
+
+    {"src":"images/evening/fall-16/large/LOOK-6.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-6.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/fall-16/large/LOOK-7.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-7.jpg",
+    "class": "ghost-left-right"},
+
+  {"src":"images/evening/fall-16/large/LOOK-1.jpg",
+    "large":"images/evening/fall-16/extra-large/LOOK-1.jpg",
+    "class": "ghost-left"},
+
+    {"src":"images/evening/fall-16/large/LOOK-9.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-9.jpg",
+  "class": "ghost-right"},
+
+  {"src":"images/evening/fall-16/large/LOOK-10.jpg",
+"large":"images/evening/fall-16/extra-large/LOOK-10.jpg",
+"class": "ghost-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-11.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-11.jpg"},
+
+    {"src":"images/evening/fall-16/large/LOOK-13.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-13.jpg",
+  "class": "ghost-left-right"},
+
+{"src":"images/evening/fall-16/large/LOOK-21.jpg",
+"large":"images/evening/fall-16/extra-large/LOOK-21.jpg"},
+
+    {"src":"images/evening/fall-16/large/LOOK-14.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-14.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-15.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-15.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-16.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-16.jpg"
+    },
+
+    {"src":"images/evening/fall-16/large/LOOK-17.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-17.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/fall-16/large/LOOK-18.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-18.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-20.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-20.jpg",
+  "class": "ghost-right"},
+
+  {"src":"images/evening/fall-16/large/LOOK-19.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-19.jpg",
+  "class": "ghost-right"},
+
+  {"src":"images/evening/fall-16/large/LOOK-12.jpg",
+"large":"images/evening/fall-16/extra-large/LOOK-12.jpg",
+"class": "ghost-left"},
+
+    {"src":"images/evening/fall-16/large/LOOK-22.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-22.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/fall-16/large/LOOK-23.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-23.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/fall-16/large/LOOK-24.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-24.jpg"},
+
+    {"src":"images/evening/fall-16/large/LOOK-25.jpg",
+  "large":"images/evening/fall-16/extra-large/LOOK-25.jpg"}
+
+  ]
+}

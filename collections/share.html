@@ -1,0 +1,35 @@
+<div ng-if=$root.initializing.status>
+
+    <div class="share-directive-wrapper" ng-hide="!shareHide">
+
+      <ul class="share-content">
+
+          <div class="share-facebook" id="share-item">
+            <!-- <div class="fb-share-button" data-href="http://angelsanchezusa.com/{{shareUrl}}" data-layout="link"></div> -->
+            <a target="_blank" href="http://www.facebook.com/share.php?u={{shareUrl}}&title=Angel+Sanchez">Facebook</a>
+          </div>
+
+          <div class="share-pinterest" id="share-item">
+            <!-- <a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-color="white">Pinterest</a> -->
+            <a target="_blank" href="http://pinterest.com/pin/create/bookmarklet/?media=http://angelsanchezusa.com/{{collection.images[realid].large}}&url=http://angelsanchezusa.com/{{shareUrl}}&is_video=false&description=Angel+Sanchez+|+{{seasonSpaced}}+|+Look+{{id}}">Pinterest</a>
+          </div>
+
+          <div class="share-twitter" id="share-item">
+            <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="angelsanchezpr" data-hashtags="angelsanchez">Tweet</a> -->
+            <!-- <a target="_blank" href="https://twitter.com/share?via=AngelSanchezPR&related=twitterapi%2Ctwitter&hashtags=example%2Cdemo&text=ANGELSANCHEZ|{{seasonSpaced}}|LOOK-{{id}}"> -->
+              <a target="_blank" href="https://twitter.com/share?url=http%3A%2F%2Fangelsanchezusa.com%2F{{collection.collection}}%2F{{collection.season}}%2F{{id}}&via=AngelSanchezPR&related=twitterapi%2Ctwitter">Twitter</a>
+            <!-- &hashtags=angelsanchezpress%2Cangelsanchezcollection&text=ANGELSANCHEZ%7{{seasonSpaced}}%7LOOK-{{id}} -->
+          </div>
+
+          <div class="share-tumblr" id="share-item">
+            <!-- <a class="tumblr-share-button" target="_blank" href="http://tumblr.com/widgets/share/tool?canonicalUrl=http://angelsanchezusa.com/{{shareUrl}}">tumblr</a> -->
+            <a target="_blank" href="http://tumblr.com/widgets/share/tool?canonicalUrl=angelsanchezusa.com/collections/{{collection.collection}}/{{collection.season}}/{{id}}">Tumblr</a>
+            <!-- <a target="_blank" href="http://www.tumblr.com/share?v=3&t=http://ANGELSANCHEZUSA.COM" >Tumblr</a> -->
+          </div>
+
+      </ul>
+
+      <!-- <div class="close-share" ng-click="closeShare()">X</div> -->
+
+    </div>
+</div>

@@ -1,0 +1,98 @@
+<div class="journal-wrapper" summary="this is the content of social" ng-controller="journalCtrl">
+
+  <div  class="journal-content">
+
+    <!-- <div twitter-timeline="606215402507661313" auto-resize="true" css-url="/app.css" data-tweet-limit="100"></div> -->
+    <!-- <div class='twitter-wrapper'> -->
+      <!-- <a class="twitter-timeline" href="https://twitter.com/AngelSanchezPR" data-widget-id="609079019741523968"></a> -->
+    <!-- </div> -->
+<!-- infinite-scroll='loadMore()' infinite-scroll-distance="1" -->
+
+<!-- on-finish-render="ngRepeatFinished" -->
+
+    <div  class="journal-filter-wrapper" filter-active-directive>
+      <table class='journal-table'>
+        <tr class='journal-tr'>
+          <td style="height:100%; vertical-align: middle;">
+              <ul ng-if="!isjournalMobileDevice" class="journal-filter-content">
+<!-- "myFilter = {type: 2}" -->
+                <li id="journal-filter-entry" >
+                  <a ng-class="{ active: filterState==1}" class="insta-a" ng-click="clearFilter(); filterAllLoadMore(); filterActive(1)">All</a>
+                </li>
+                <!-- <li id="journal-filter-entry" ng-class="{ active: isActive()}" ng-repeat="tags in tags" >
+                  <a class="insta-a" ng-click="query.tags = tags.hash" >{{tags.category}}</a>
+                </li> -->
+
+                <li id="journal-filter-entry" >
+                  <a ng-class="{ filterActive: filterState==2}" class="insta-a" ng-click='query.tags = "angelsanchezpress"; filterRemovesLoadMore(); filterActive(2)' >Press</a>
+                </li>
+
+                <li id="journal-filter-entry" >
+                  <a ng-class="{ filterActive: filterState==3}" class="insta-a" ng-click='query.tags = "angelsanchezinspiration"; filterRemovesLoadMore(); filterActive(3)' >inspiration</a>
+                </li>
+
+                <li id="journal-filter-entry" >
+                  <a ng-class="{ filterActive: filterState == 4}" class="insta-a" ng-click='query.tags = "angelsanchezarchives"; filterRemovesLoadMore(); filterActive(4)' >archives</a>
+                </li>
+
+                <li id="journal-filter-entry" >
+                  <a ng-class="{ filterActive: filterState==5}" class="insta-a" ng-click='query.tags = "angelsanchezcollections"; filterRemovesLoadMore(); filterActive(5)' >collections</a>
+                </li>
+
+              </ul>
+
+              <div class = "select-box-journal">
+                <div class = "select-box-journal-arrow"  ng-if="isjournalMobileDevice">
+                  <p></p>
+                </div>
+              <select  ng-if="isjournalMobileDevice" class="mobile-filter-select" name="mobile-filter-select" ng-model="query.tags" ng-change="mobileFilterChange()">
+                  <option value="" disabled selected>filter category</option>
+                  <option ng-class="{ active: filterState==1}" class="insta-a" value="All">All</option>
+                  <option ng-class="{ filterActive: filterState==2}" class="insta-a" value="angelsanchezpress">Press</option>
+                  <option ng-class="{ filterActive: filterState==3}" class="insta-a" value="angelsanchezinspiration">Inspiration</option>
+                  <option ng-class="{ filterActive: filterState == 4}" class="insta-a" value="angelsanchezarchives">Archives</option>
+                  <option ng-class="{ filterActive: filterState==5}" class="insta-a" value="angelsanchezcollections">Collections</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+    </div>
+
+    
+    <div class="insta-wrapper">
+      <ul class="insta-grid" instaimageclick-Directive >
+        <li ng-repeat="p in instaTotal | filter: query| limitTo:totalDisplayed track by $index " class="insta-li" id="insta-{{$index}}" ng-show="([p] | filter: query).length > 0">
+
+          <!-- <div ng-show="journalLoading" class="images-loader-div">
+            <div class="grey-placeholder"  alt="Loading icon"></div>
+          </div> -->
+
+          <div class="journal-images-loader-div" ng-show="journalLoading">
+              <div class="journal-loader" alt="Loading icon"></div>
+          </div>
+
+
+<!-- href="journal/{{isItem(p)}}" -->
+          <a ng-click="journalMobileLocation('journal/'+isItem(p)); beJournal();" >
+            <img journal-style-parent class="instagram-image" src="{{p.images.standard_resolution.url}}" >
+          </a>
+
+          <!-- <a ng-if="isMobileDevice" href="journal/{{isItem(p)}}" ng-click="beJournal(); mobileLocation('journal/{{isItem(p)}}')">
+            <img journal-style-parent class="instagram-image" src="{{p.images.standard_resolution.url}}" >
+          </a> -->
+        </li>
+
+        <li class="load-more-li" ng-hide="hideLoadMore"><button class="load-more-button" ng-click="loadMore()" ng-hide="noMore">Load more</button></li>
+
+
+      </ul>
+
+    </div>
+
+
+
+
+
+  </div>
+
+</div>

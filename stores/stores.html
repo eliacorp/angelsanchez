@@ -1,0 +1,43 @@
+
+<div class="stores-wrapper" summary="stores page" ng-controller="storesCtrl">
+
+            <div class="stores-inside-wrapper">
+
+
+                <div class = "stores-select">
+                  <select class="stores-select-class" ng-change="selectAction()" ng-model="continental" ng-options="item as item.continent for item in stores" >
+                  </select>
+
+                  <div class = "stores-select-arrow">
+                    <b></b>
+                  </div>
+                </div>
+
+
+                <p>{{continental.locationCity}}</p>
+                  <ul class="stores-ul">
+                    <li class="stores-li" ng-repeat="store in continental.stores" class="stores-text">
+                      <div class="stores-content">
+                        <div class="stores-content-text">
+                          <h1 class="stores-content-name">{{store.name}}</h1>
+
+                          <p class="stores-content-location" ng-hide="store.locationAddress">{{store.locationCity}}, {{store.locationCountry}} </p>
+
+                            <p class="stores-content-location">{{store.locationAddress}}</p>
+
+                            <div class="stores-content-website-div">
+                              <p class="stores-content-website-text">
+                                <a ng-if="store.website" target="_blank" href ng-click="storesWebsiteLink('{{store.website}}')">website</a>
+<!--                                 ng-click="mobileLocation({{store.website}})"
+ -->                            <a ng-if="store.locationXY" target="_blank" ng-click="storesViewOnMapLink('https://www.google.com/maps/{{store.locationXY}}')">view map</a>
+                              </p>
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+          <!-- </td>
+				</tr>
+		</table> -->
+</div>

@@ -1,0 +1,69 @@
+<div ng-swipe-left="journalSwipeLeft()" ng-swipe-right="journalSwipeRight()" class="instagram-detail-wrapper" summary="instagram-detail-page" insta-hover-directive ng-controller="journalCtrl">
+
+
+
+  <ul>
+    <li class="insta-detail-li">
+      <div class='insta-hover-left'></div>
+
+      <div  class="insta-detail-prev" ng-show="number == firstNumber"></div>
+
+    <div class="insta-detail-prev" ng-show="number != firstNumber">
+        <a href="journal/{{prevNumber}}" ng-click="goJournalPrevious()"> </a>
+    </div>
+
+    <div class="journal-detail-loader-div" ng-show="journalDetailLoading">
+      <div class="journal-loader" ng-show="journalDetailLoading" alt="Loading icon"></div>
+    </div>
+
+
+    <div class="insta-image-container">
+      <img journal-detail-style-parent src="{{::instaTotal[realNumber].images.standard_resolution.url}}" alt="" class="insta-detail-image {{ detailImageClass }}"/>
+    </div>
+      <!-- <div style="background-image: url('{{instaTotal[realNumber].images.standard_resolution.url}}');" class="insta-detail-image {{ detailImageClass }}"></div> -->
+      <div class="insta-detail-next" ng-show="number != lastNumber">
+          <a href="journal/{{nextNumber}}" ng-click="goJournalNext()"> </a>
+      </div>
+      <div  class="insta-detail-next" ng-show="number == lastNumber"></div>
+      <div class='insta-hover-right'></div>
+
+
+
+    </li>
+  </ul>
+
+
+<!-- <div class="clearfix" style="clear: both; overflow: auto; zoom: 1;"></div> -->
+
+
+  <insta-close-directive></insta-close-directive>
+
+
+  <div class="insta-detail-text" >
+    <div class="instagram-click-overlay">
+      <div class="insta-inside-wrapper">
+        <div class="insta-caption">
+
+          <p class="insta-caption-text">{{instaTotal[realNumber].caption.text}}</p>
+          <!-- <p>{{instaTotal[realNumber].link.text}}</p> -->
+
+        </div>
+<!-- "{{urlFound[realNumber][0]}}" -->
+        <p class="insta-read-full-story" ng-if="urlFound[realNumber][0]"><a href ng-click="journalMobileOutsideReadFullStory()" target="_blank">READ FULL STORY</a></p>
+<!-- ="{{instaTotal[realNumber].link}}" -->
+        <p class="insta-view-on-instagram" ><a href ng-click="journalMobileOutsideViewOnInstagram()">VIEW ON INSTAGRAM</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class='insta-share'>
+    <a ng-click="instaShareSlide()"><p ng-class="{ shareActive: instaShareHide }">SHARE</p></a>
+    <insta-share-directive></insta-share-directive>
+
+  </div>
+
+</div>
+
+
+
+<!-- ng-click="next()" -->

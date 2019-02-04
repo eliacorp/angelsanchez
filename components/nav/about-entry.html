@@ -1,0 +1,22 @@
+
+
+<div >
+
+  <div class="nav-about-div-directive" summary="about-entry directive">
+
+    <div class="nav-collections-title nav-collections-title-about">
+      <p>About</p>
+    </div>
+
+    <div class="nav-about-list">
+      <li class="animate-show">
+        <a ng-disabled="active" ng-class="{ active: isActive('/about/designer')}" ng-href="about/designer" class="navEntry">designer</a>
+      </li>
+      <li class="animate-show">
+        <a ng-disabled="active" ng-class="{ active: isActive('/about/brand')}" ng-href="about/brand" class="navEntry">brand</a>
+      </li>
+    </div>
+
+    <div class="sub-menu-back" ng-click="backToMenu()"></div>
+
+</div>

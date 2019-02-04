@@ -1,0 +1,29 @@
+<div>
+
+  <div class="nav-collection-div-directive" summary="collection-entry directive">
+
+<!--.............................. evening................................ -->
+    <div class="nav-collections-title">
+      <p>collections</p>
+    </div>
+
+    <div class="nav-evening-list" >
+      <p>Evening</p>
+      <li ng-repeat="c in collections | filter: season='evening'" class="animate-show">
+        <a ng-click="mobileLocation('/collections/{{c.collection}}/{{c.season}}')" ng-disabled="active" ng-class="{active: isActive('/collections/{{c.collection}}/{{c.season}}')}"  ng-href="collections/{{c.collection}}/{{c.season}}" class="navEntry">{{c.seasonName}}</a>
+      </li>
+    </div>
+
+<!--.............................. bridal................................ -->
+    <div class="nav-bridal-list" >
+      <p >Bridal</p>
+      <li ng-repeat="c in collections | filter: season='bridal'"  class="animate-show" >
+        <a ng-click="mobileLocation('/collections/{{c.collection}}/{{c.season}}')" ng-disabled="active" ng-class="{ active: isActive('/collections/{{c.collection}}/{{c.season}}')}"  ng-href="collections/{{c.collection}}/{{c.season}}" class="navEntry">{{c.seasonName}}</a>
+      </li>
+    </div>
+
+    <div class="sub-menu-back" ng-click="backToMenu()"></div>
+
+  </div>
+
+</div>

@@ -1,0 +1,85 @@
+<!-- <smoothscroll-directive> -->
+<div class='nav-outside-wrapper' ng-controller='navCtrl'>
+
+  <!-- Burger icon -->
+  <div class='burger-wrapper' ng-click="beNavActive()" ng-cloak>
+    <div burger-color-directive class="burger-icon {{burgerIconColor}}" ng-cloak ng-hide="burgerHide"></div>
+  </div>
+  <!-- <div class='burger-icon' ng-class="{'burger-icon-black' : navActive, 'burger-icon-color': location != '/', 'burger-icon-gold': location != '/collections/evening/{{seasonName}}'}"></div> -->
+
+
+  <div class="navigation" ng-hide="!navActive">
+
+    <div class="menu-table-wrapper-main">
+
+      <table class='nav-inside-wrapper'>
+        <tr>
+          <td style="height:100%; vertical-align: middle;">
+
+            <ul class="menu">
+              <li class="">
+                <a ng-show="isHome()" ng-href="/" ng-class="{ active: isActive('/')}" ng-click="beNavActive(); mobileLocation('/');" ng-style="{{navColor}}" class="navEntry nav-home-entry">home</a>
+              </li>
+
+              <li class="collections" >
+                <a ng-click="collectionMenuCollapse();" ng-class="{ active: collapsed}">collections</a>
+              </li>
+
+              <li class="about">
+                <a  ng-click="aboutMenuCollapse()" ng-class="{ active: collapsed}">about</a>
+              </li>
+              <!-- navReset();    removed recently-->
+              <li>
+                <a ng-href="/journal" ng-class="{ active: isActive('/journal')}" ng-click="beNavActive(); mobileLocation('/journal');" ng-style="{{navColor}}" class="navEntry">journal</a>
+              </li>
+
+              <li>
+                <a ng-href="/stores" ng-class="{ active: isActive('/stores')}" ng-click="beNavActive(); mobileLocation('/stores');" ng-style="{{navColor}}" class="navEntry">stores</a>
+              </li>
+
+              <li>
+                <a ng-href="/contact" ng-class="{ active: isActive('/contact')}" ng-click="beNavActive(); mobileLocation('/contact');" ng-style="{{navColor}}" class="navEntry">contact</a>
+              </li>
+
+              <li>
+                <a ng-href="/subscribe" ng-class="{ active: isActive('/subscribe')}" ng-click="beNavActive(); mobileLocation('/subscribe');" ng-style="{{navColor}}" class="navEntry">subscribe</a>
+              </li>
+
+
+            </ul>
+            </td>
+          </tr>
+      </table>
+    </div>
+
+    <div class="sub-navigation" ng-hide="!subNavShow">
+      <table class='nav-sub-menu-wrapper'>
+        <tr>
+          <td style="height:100%; vertical-align: middle;">
+            <ul class="sub-menu">
+
+              <div class="collections-directive" ng-hide="!collectionActive">
+                <collections-directive></collections-directive>
+              </div>
+
+              <div class="about-directive" ng-hide="!aboutActive">
+                <about-directive ></about-directive>
+              </div>
+
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='social-wrapper'>
+      <ul class='social-table'>
+        <a href='https://www.facebook.com/angelsanchezusa' target='_blank'><li></li></a>
+        <a href='https://twitter.com/angelsanchezpr' target='_blank'><li></li></a>
+        <a href='https://instagram.com/angelsanchezpr/' target='_blank'><li></li></a>
+        <a href='https://www.pinterest.com/angelsanchezpr/' target='_blank'><li></li></a>
+      </ul>
+    </div>
+  </div>
+
+</div>

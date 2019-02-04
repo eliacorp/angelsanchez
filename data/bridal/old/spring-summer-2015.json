@@ -1,0 +1,66 @@
+{
+  "collection":"bridal",
+  "season":"spring-summer-2015",
+  "cover":"images/bridal/spring-15/bss15.jpg",
+  "videoHandle":"",
+  "videoId": "",
+  "mobilevideoHandle":"",
+  "mobileVideoId": "",
+  "mobileThumbnail":"images/bridal/spring-15/large/N11000.jpg",
+  "images": [
+    {"src":"images/bridal/spring-15/large/N11000.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11000.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11001.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11001.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11002.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11002.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11003.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11003.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11004.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11004.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11004-back.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11004-back.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11005.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11005.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11006.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11006.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11007.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11007.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11008.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11008.jpg"
+    },
+
+    {"src":"images/bridal/spring-15/large/N11009.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11009.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11010-long.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11010-long.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11010-short.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11010-short.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11011.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11011.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11011X.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11011X.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11012.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11012.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11013-front.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11013-front.jpg"},
+
+    {"src":"images/bridal/spring-15/large/N11013.jpg",
+      "large":"images/bridal/spring-15/extra-large/N11013.jpg"}
+  ]
+}

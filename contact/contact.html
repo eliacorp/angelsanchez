@@ -1,0 +1,110 @@
+
+<div class="contact-content" summary="this is the content of contact" ng-controller="contactCtrl">
+  <table class='contact-inside-wrapper'>
+    <tr>
+      <td style="height:100%; vertical-align: middle;">
+
+      <div class="contact-col" ng-controller="contactCtrl">
+
+          <div class="contact-form">
+
+
+            <!-- SHOW ERROR/SUCCESS MESSAGES -->
+            <div id="messages" ng-show="message">{{ message }}</div>
+
+            <!-- FORM -->
+
+            <div class="alert alert-danger" ng-show="error">
+              An error occured while trying to send message.
+                <p class="back-button"><a href="/contact" ng-click="contactMobileOutsideBackLink()">back</a></p>
+            </div>
+
+            <div class="alert-success" ng-show="success">
+               We received your message. Thank you for your interest.
+              <p class="back-button"><a href="/contact" ng-click="contactMobileOutsideBackLink()">back</a></p>
+            </div>
+
+            <form role="form" name="contactForm" ng-submit="processForm()" novalidate ng-hide="hideContact">
+
+              <div class = "text" >
+                <p>Please fill in the form below to contact us </p>
+
+              </div>
+
+              <div class="form-group1">
+                <input class="form-control1" type="text" name="name"  ng-model="formData.name" required="required" placeholder="NAME">
+              </div>
+
+
+              <div class="form-group2">
+                <input class="form-control2" type="email" name="email" ng-model="formData.email" required="required" placeholder="EMAIL">
+              </div>
+
+
+                <div class = "drop-down">
+                  <select class = "contact-dropdown" name="subject" ng-model="formData.subject">
+                    <div class = "placeholder-text">
+                    <option value="" disabled selected>SUBJECT</option>
+                    </div>
+                    <option>GENERAL</option>
+                    <option>COLLECTIONS</option>
+                    <option>PRESS</option>
+                    <option>JOBS</option>
+                  </select>
+
+                  <div class = "contact-select-arrow">
+                    <b></b>
+                  </div>
+              </div>
+
+              <div class="form-group3">
+                <textarea class="form-control3" rows="5" name="message"   ng-model="formData.body" placeholder="MESSAGE"></textarea>
+              </div>
+
+              <button type="submit" class="submit-button" ng-class="{'contactDisabled': contactForm.$invalid}" ng-click="processForm()" ng-disabled="contactForm.$invalid">SUBMIT</button>
+          </form>
+        </div>
+
+
+            <!-- SHOW DATA FROM INPUTS AS THEY ARE BEING TYPED -->
+
+
+          <div class="contact-company" ng-hide="hideContact">
+
+          <div class = "showroom-address">
+            <h1>SHOWROOM</h1>
+              <span>148 W. 37th St. 7th floor</span>
+              <span>New York, NY 10018</span>
+
+              <div class = "number">
+              <span>212-921-9827</span>
+            </div>
+
+          <div class = "contacts">
+              <h1>CONTACTS</h1>
+                <p>Dom Nazario</p>
+                <span>Showroom Representative</span>
+                <span ><a href="mailto:dom@angelsanchezusa.com">dom@angelsanchezusa.com</a></span>
+          </div>
+
+
+          <div class = "PR">
+            <p>Carolina Almandoz</p>
+            <span>Public Relations Director</span>
+            <span><a href="mailto:carolina.almandoz@angelsanchezusa.com">carolina.almandoz@angelsanchezusa.com</a></span>
+          </div>
+
+
+          <div class = "MISTER">
+            <p> Site by <a ng-click="contactMobileOutsideLink()">MISTER</a></p>
+            <div>
+
+          </div>
+
+        </div>
+      </div>
+
+</td>
+</tr>
+</table>
+</div>

@@ -1,0 +1,57 @@
+<div ng-swipe-left="swipeLeft()" ng-swipe-right="swipeRight()" class="season-detail-wrapper" summary="season-detail-page" seasonshover-Directive ng-controller="seasonController" autoscroll="false" >
+
+  <ul prevnext-Directive season-style-parent>
+    <li class="season-detail-image">
+      <div class='hover-left' ></div>
+
+      <div class="season-detail-prev" ng-show="id == first"></div>
+        <div class="season-detail-prev" ng-show="id != first" >
+
+            <a href ng-click="goPrevious()"> </a>
+            <!-- "collections/{{collection.collection}}/{{collection.season}}/{{prevId}}" -->
+        </div>
+
+        <div class="season-images-loader-div" ng-show="seasonLoading">
+            <div class="loader season-loader" ng-show="seasonLoading" alt="Loading icon"></div>
+        </div>
+
+        <img season-style-parent src="{{collection.images[realid].large}}" alt=" " class="detail-image {{ detailImageClass }}" onError="this.onerror=null;this.src='/images/blank.jpg';" ng-cloak/>
+
+
+
+        <div class="season-detail-next" ng-show="id != last" >
+            <a href ng-click="goNext()"> </a>
+            <!-- "collections/{{collection.collection}}/{{collection.season}}/{{nextId}}" -->
+
+        </div>
+        <div class="season-detail-next" ng-show="id == last"></div>
+
+      <div class='hover-right'></div>
+
+    </li>
+  </ul>
+
+
+
+
+
+  <close-directive class="close-directive"></close-directive>
+
+
+  <div class="season-detail-name" >
+        <p>{{seasonSpaced}}</p>
+        <p>LOOK</p>
+        <p>{{id}}</p>
+  </div>
+
+  <div class='season-share' ng-if="!isMobile">
+    <a href="#" ng-click="shareSlide()" class"share-lider-a"><p ng-class="{ shareActive: shareHide }">SHARE</p></a>
+    <share-directive ng-cloak ></share-directive>
+
+  </div>
+
+</div>
+
+
+
+<!-- ng-click="next()" -->

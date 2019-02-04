@@ -1,0 +1,33 @@
+<div class="video-wrapper" ng-if="requestsExisting(handle.length)" >
+  <!-- ng-if="requestsExisting(handle.length)" -->
+<!-- ng-if="requestsExisting(handle.length)" -->
+<!--................................................ vimeo video.js............................................. -->
+  <div class="collection-video-wrapper" >
+
+
+
+
+    <!-- <iframe id="vid_id" src="{{video}}"></iframe> -->
+    <video id="videocoverHeight" id="{{VideoPlayerId}}" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto"}'  width="100%" height="100%" poster='images/blank.jpg' >
+        <source src="{{video}}"/>
+    </video>
+
+        <div  ng-if="isMobileDevice"  class="video-poster" style="background-image: url('{{thumbnail}}')"></div>
+      <div ng-if="isMobileDevice" ng-click="openVideo()"  class="collection-video-play-button">
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="-229 31 500 500" style="enable-background:new -229 31 500 500;" xml:space="preserve">
+        <path id="path-1" class="st0" d="M-22,347V202.9L106,275" fill="{{playButtonColor}}"/>
+        <path class="st0" d="M-14,234" fill="{{playButtonColor}}"/>
+        </svg>
+
+
+    </div>
+
+    <!-- poster='images/blank.jpg' -->
+  </div>
+
+ <!-- customControlsOnMobile": true  -->
+</div>

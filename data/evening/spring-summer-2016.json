@@ -1,0 +1,171 @@
+{
+  "collection":"evening",
+  "season":"spring-summer-2016",
+    "cover":"",
+  "images": [
+    {"src":"images/evening/spring-16/large/SP1603-FRONT.jpg",
+      "large":"images/evening/spring-16/extra-large/SP1603-FRONT.jpg",
+      "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1601-FRONT.jpg",
+      "large":"images/evening/spring-16/extra-large/SP1601-FRONT.jpg",
+      "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1602-FRONT.jpg",
+      "large":"images/evening/spring-16/extra-large/SP1602-FRONT.jpg",
+      "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1600-FRONT.jpg",
+      "large":"images/evening/spring-16/extra-large/SP1600-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1604-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1604-FRONT.jpg"},
+
+    {"src":"images/evening/spring-16/large/SP1605-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1605-FRONT.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1606-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1606-FRONT.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1607-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1607-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1608-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1608-FRONT.jpg",
+  "class": "ghost-right"},
+
+  {"src":"images/evening/spring-16/large/SP1609-FRONT.jpg",
+"large":"images/evening/spring-16/extra-large/SP1609-FRONT.jpg",
+"class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1611-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1611-FRONT.jpg"},
+
+    {"src":"images/evening/spring-16/large/SP1610-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1610-FRONT.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1612-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1612-FRONT.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1613-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1613-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1614-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1614-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1615-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1615-FRONT.jpg"},
+
+    {"src":"images/evening/spring-16/large/SP1618-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1618-FRONT.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1617-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1617-FRONT.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1616-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1616-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1619-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1619-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1620-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1620-FRONT.jpg"},
+
+    {"src":"images/evening/spring-16/large/SP1621-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1621-FRONT.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1622-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1622-FRONT.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1623-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1623-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1624-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1624-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1625-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1625-FRONT.jpg"},
+
+    {"src":"images/evening/spring-16/large/SP1626-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1626-FRONT.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1627-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1627-FRONT.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1628-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1628-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1632-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1632-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1630-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1630-FRONT.jpg"},
+
+    {"src":"images/evening/spring-16/large/SP1631-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1631-FRONT.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1629-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1629-FRONT.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1633-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1633-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1634-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1634-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1635-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1635-FRONT.jpg"},
+
+    {"src":"images/evening/spring-16/large/SP1640-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1640-FRONT.jpg",
+  "class": "ghost-left"},
+
+    {"src":"images/evening/spring-16/large/SP1637-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1637-FRONT.jpg",
+  "class": "ghost-left-right"},
+
+    {"src":"images/evening/spring-16/large/SP1638-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1638-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1639-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1639-FRONT.jpg",
+  "class": "ghost-right"},
+
+    {"src":"images/evening/spring-16/large/SP1636-FRONT.jpg",
+  "large":"images/evening/spring-16/extra-large/SP1636-FRONT.jpg"},
+
+  {"src":"images/evening/spring-16/large/SP1641-FRONT.jpg",
+"large":"images/evening/spring-16/extra-large/SP1641-FRONT.jpg"}
+
+  ],
+  "videoHandle":"139766549",
+  "videoId":"890ff881b8b25239aced5b55dfe5e7f7",
+  "mobilevideoHandle":"139766549",
+  "mobileVideoId":"890ff881b8b25239aced5b55dfe5e7f7",
+  "mobileThumbnail":"images/evening/spring-16/large/SP1638-FRONT.jpg"
+}

@@ -1,0 +1,57 @@
+{
+  "collection":"bridal",
+  "season":"fall-winter-2016",
+  "cover":"images/bridal/fall-16/ANGELSANCHEZ_BRIDAL_FW16_OPENER.jpg",
+  "videoHandle":"142562959",
+  "videoId":"c02f053c135bfbdce3f414655bb58e88",
+  "mobilevideoHandle":"142562959",
+  "mobileVideoId": "c02f053c135bfbdce3f414655bb58e88",
+  "mobileThumbnail":"images/bridal/fall-16/large/NF1600.jpg",
+  "images": [
+
+    {"src":"images/bridal/fall-16/large/NF1600.jpg",
+    "large":"images/bridal/fall-16/extra-large/NF1600.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1601.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1601.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1602.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1602.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1603.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1603.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1604.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1604.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1605.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1605.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1606.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1606.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1611.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1611.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1608.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1608.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1609.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1609.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1610.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1610.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1607.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1607.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1612.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1612.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1613.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1613.jpg"},
+
+    {"src":"images/bridal/fall-16/large/NF1614.jpg",
+      "large":"images/bridal/fall-16/extra-large/NF1614.jpg"}
+  ]
+}

@@ -1,0 +1,35 @@
+<div ng-controller="seasonController" class="collection-evening" summary="collection-detail" imagelayout-directive evening-directive >
+
+
+    <div class="collection-evening-video" id="collection-evening-section-0">
+
+        <video-directive></video-directive>
+
+        <div class="season-cover-wrapper" ng-show="coverLength" >
+          <img class="season-cover-image {{collectionName}}-{{seasonName}}" src="{{cover}}" alt="" id="videocoverHeight">
+        </div>
+
+       <!-- style="background-image: url('{{cover}}');" -->
+        <div class="view-collection-evening" hideviewcollection-directive ng-hide="hideViewCollection()" >
+          <a ng-click="viewEveningClick($event)" href="" class="view-collection-a" >
+            <p id="view-collection-fade">view lookbook</p>
+          </a>
+        </div>
+
+      </div>
+
+    <div id="evening-images" class="{{seasonName}}">
+      <div id="evening-image-{{$index}}"  ng-repeat="i in collection.images" class='box-wrapper-evening {{i.class}}' ng-click="beSeason()">
+        <a ng-href="collections/{{collectionName}}/{{seasonName}}/{{$index + 1}}" ng-click="mobileLocation('collections/{{collectionName}}/{{seasonName}}/{{$index + 1}}')">
+          <!-- <div spinner-key="spinner-2" images-spinner="{lines:17, length:0, width:36, radius:84, scale:0.25, corners:0, opacity:0, rotate:81, direction:1, speed:1.9, trail:44, top: '62%' , color: '#ecc176'}"></div> -->
+
+          <!-- <div class="images-loader-div" ng-show="seasonLoading" style="">
+              <div class="loader" alt="Loading icon"></div>
+          </div> -->
+
+          <img ng-src={{i.src}} class='box'></img>
+        </a>
+      </div>
+    </div>
+
+</div>

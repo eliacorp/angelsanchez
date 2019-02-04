@@ -1,0 +1,48 @@
+{
+  "collection":"bridal",
+  "season":"fall-winter-2015",
+  "cover":"images/bridal/fall-15/coverfw15.jpg",
+  "videoHandle":"130770764",
+  "videoId":"2cf63a54e0efb6e0d30ed6d5c7a80d78",
+  "mobilevideoHandle":"130770764",
+  "mobileVideoId": "2cf63a54e0efb6e0d30ed6d5c7a80d78",
+  "mobileThumbnail":"images/bridal/fall-15/large/NF1500.jpg",
+  "images": [
+
+    {"src":"images/bridal/fall-15/large/NF1500.jpg",
+    "large":"images/bridal/fall-15/extra-large/NF1500.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1501.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1501.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1502.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1502.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1503.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1503.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1504.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1504.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1505.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1505.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1506.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1506.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1508.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1508.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1509.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1509.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1510.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1510.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1511.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1511.jpg"},
+
+    {"src":"images/bridal/fall-15/large/NF1512.jpg",
+      "large":"images/bridal/fall-15/extra-large/NF1512.jpg"}
+  ]
+}

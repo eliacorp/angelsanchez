@@ -1,0 +1,34 @@
+<div ng-if=$root.initializing.status insta-share-directive>
+
+    <div class="insta-share-directive-wrapper" ng-hide="!instaShareHide">
+
+      <ul class="insta-share-content">
+
+          <li class="insta-share-facebook" id="insta-share-item">
+            <a target="_blank" href="http://www.facebook.com/share.php?u={{instaShareUrl}}&title=Angel+Sanchez">Facebook</a>
+          </li>
+
+<!-- "http://www.facebook.com/share.php?u=http://staging.angelsanchezusa.com.s3-website-us-east-1.amazonaws.com/{{instaShareUrl}}&title=Angel+Sanchez" -->
+
+<!--           "http://www.facebook.com/share.php?u=http://localhost/{{shareUrl}}&title=Angel+Sanchez" -->
+
+          <li class="insta-share-pinterest" id="insta-share-item">
+            <a target="_blank" href="http://pinterest.com/pin/create/bookmarklet/?media={{instaTotal[realNumber].images.standard_resolution.url}}&url=http://angelsanchezusa.com/{{instaShareUrl}}&is_video=false&description=Angel+Sanchez+|+{{instaTotal[realNumber].caption.text}}">Pinterest</a>
+          </li>
+
+          <li class="insta-share-twitter" id="insta-share-item">
+
+              <a target="_blank" href="https://twitter.com/share?url=http%3A%2F%2Fangelsanchezusa.com/journal/{{number}}&via=AngelSanchezPR&related=twitterapi%2Ctwitter">
+              Twitter
+              </a>
+          </li>
+
+          <li class="insta-share-tumblr" id="insta-share-item">
+                <!-- <a class="tumblr-share-button" target="_blank" href="http://tumblr.com/widgets/share/tool?canonicalUrl=http://angelsanchezusa.com/{{shareUrl}}">tumblr</a> -->
+                <a target="_blank" href="http://www.tumblr.com/share?v=3&u={{instaTotal[realNumber].images.standard_resolution.url}}&t=ANGELSANCHEZUSA.COM">Tumblr</a>
+          </li>
+
+      </ul>
+
+    </div>
+</div>

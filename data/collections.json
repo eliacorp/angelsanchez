@@ -1,0 +1,33 @@
+[
+  {
+    "collection":"bridal",
+    "season":"spring-summer-2017",
+    "seasonName":"spring summer 2017"
+  },
+  {
+    "collection":"bridal",
+    "season":"fall-winter-2016",
+    "seasonName":"fall winter 2016"
+  },
+  {
+    "collection":"bridal",
+    "season":"spring-summer-2016",
+    "seasonName":"spring summer 2016"
+  },
+  {
+    "collection":"evening",
+    "season":"fall-winter-2016",
+    "seasonName":"fall winter 2016"
+  },
+  {
+    "collection":"evening",
+    "season":"spring-summer-2016",
+    "seasonName":"spring summer 2016"
+  },
+  {
+    "collection":"evening",
+    "season":"resort-2016",
+    "seasonName":"resort 2016"
+  }
+
+]

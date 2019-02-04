@@ -1,0 +1,25 @@
+[
+  {
+    "img":"images/evening/fall-16/fw16-home.jpg",
+    "backgroundPosition": "50% 23%",
+    "collectionName": "evening collection",
+    "seasonName": "2016",
+    "link":"collections/evening/fall-winter-2016",
+    "seasonYear":"2016"
+  },
+  {
+    "img":"images/homepage/bridal_ss17_homepage.jpg",
+    "backgroundPosition": "50% 35%",
+    "collectionName": "bridal collection",
+    "seasonName": "2017",
+    "link":"collections/bridal/spring-summer-2017",
+    "seasonYear":"2017"
+  },
+  {
+    "img": "images/homepage/3.jpg",
+    "backgroundPosition": "50% 0%",
+    "collectionName": "about angel sanchez",
+    "seasonName": "the designer",
+    "link":"about/designer"
+  }
+]

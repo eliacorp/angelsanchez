@@ -1,0 +1,61 @@
+<!--
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" >
+  <title ng-bind="PageTitle.title()"></title>
+
+<title>Angel Sanchez | Home</title>
+
+ <meta name="description" content="Home" meta-directive>
+
+
+
+
+</head> -->
+
+
+
+<div ng-controller="homeCtrl" class="home" summary="this is the content of home" scroll smooth-directive>
+
+  <div ng-repeat="d in data" class='home-sections' id="home-sections-{{$index}}">
+    <div style="background-image: url('{{d.img}}'); background-position:{{d.backgroundPosition}}" alt="home-image" class='homepage-image' />
+    </div>
+  </div>
+
+<!-- //pre-rendering cover images - this is a tentative and temporary fix -->
+<img src="/images/bridal/spring-16/bss16-2.jpg" style="display: none" alt="AStestimage" class='homepage-image' />
+<img src="images/evening/resort-16/resort1.jpg" style="display: none" alt="AStestimage" class='homepage-image' />
+<img src="/images/bridal/fall-15/coverfw15.jpg" style="display: none" alt="AStestimage" class='homepage-image' />
+<img src="/images/bridal/spring-15/bss15.jpg" style="display: none" alt="AStestimage" class='homepage-image' />
+<img src="/images/evening/fall-16/fw16-cover.jpg" style="display: none" alt="AStestimage" class='homepage-image' />
+
+
+  <div class="home-collection-name-wrapper">
+
+    <hometitle-directive></hometitle-directive>
+
+  </div>
+
+  <div class="home-anchors-wrapper" anchor-directive>
+    <div class="home-anchor">
+
+      <div id="anchor-div-0" ng-click="scrollTo('home-sections-0')">
+        <svg height="9" width="9" ng-class="{'anchor-hover': hover0}" class="anchor-svg">
+        <circle  class="home-circle" id="anchor-0" cx="4.5" cy="4.5" r="4.5"  fill="rgba(233, 233, 233, 1)" />
+        </svg>
+      </div>
+      <div id="anchor-div-1" ng-click="scrollTo('home-sections-1')">
+        <svg height="9" width="9" ng-class="{'anchor-hover': hover1}" class="anchor-svg">
+        <circle class="home-circle" id="anchor-1"  cx="4.5" cy="4.5" r="4.5"  fill="rgba(96, 96, 96, 1)" />
+        </svg>
+      </div>
+      <div id="anchor-div-2" ng-click="scrollTo('home-sections-2')">
+        <svg height="9" width="9" ng-class="{'anchor-hover': hover2}" class="anchor-svg">
+        <circle class="home-circle" id="anchor-2" cx="4.5" cy="4.5" r="4.5" fill="rgba(96, 96, 96, 1)" />
+        </svg>
+      </div>
+
+    </div>
+  </div>
+
+</div>

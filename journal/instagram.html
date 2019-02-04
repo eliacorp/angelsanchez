@@ -1,0 +1,21 @@
+
+
+  <!-- <li ng-repeat="p in tags | filter: filters" class="insta-li col-md-{{p.created_time}}">
+    {{p.hash}}
+
+  </li> -->
+
+<ul class="insta-grid" instaimageclick-Directive infinite-scroll="addMoreItems()">
+  <li ng-repeat="p in instaTotal | filter: query track by $index" class="insta-li"  ng-animate="'animate'" on-finish-render="ngRepeatFinished" id="insta-{{$index}}" ng-show="([p] | filter: query).length > 0">
+
+        <a href="journal/{{$index + 1}}">
+          <img class="instagram-image" src="{{p.images.standard_resolution.url}}">
+        </a>
+
+  </li>
+
+
+
+</ul>
+<!-- | startsWithLetter:letter" -->
+<!-- <li ng-repeat="p in instaTotal | filter: query track by $index" class="insta-li"  ng-animate="'animate'" on-finish-render="ngRepeatFinished" id="insta-{{$index}}" ng-show="([p] | filter: query).length > 0"> -->

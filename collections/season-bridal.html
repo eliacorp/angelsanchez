@@ -1,0 +1,38 @@
+
+<div ng-controller="seasonController" class="collection-bridal" summary="collection-season-detail" imagelayout-directive bridal-directive>
+
+
+<div class="collection-bridal-cover-wrapper" id="collection-bridal-section-0">
+
+  <div class="season-cover-wrapper" id="videocoverHeight">
+    <img class="season-cover-image {{collectionName}}-{{seasonName}}" src="{{cover}}" alt="" />
+  </div>
+
+
+
+ <!-- -->
+  <div class="view-collection-bridal" hideviewcollection-directive ng-hide="hideViewCollection()">
+    <a ng-click="viewBridalClick($event)" href="" class="view-collection-a" >
+      <p id="view-collection-fade">view lookbook</p>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="bridal-images">
+      <div id="bridal-image-{{$index}}" ng-repeat="i in collection.images" class='box-wrapper-bridal {{i.class}}' ng-click="beSeason()">
+        <a ng-href="collections/{{collectionName}}/{{seasonName}}/{{$index + 1}}" ng-click="mobileLocation('collections/{{collectionName}}/{{seasonName}}/{{$index + 1}}')">
+
+          <img ng-src={{i.src}} class='box' ></img>
+        </a>
+      </div>
+    </div>
+
+
+      <div class="collection-bridal-video" ng-if="requestsExisting(handle.length)">
+        <video-directive></video-directive>
+      </div>
+
+
+</div>
